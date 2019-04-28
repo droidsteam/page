@@ -48,6 +48,9 @@ html, body{
     background: #000;
     font-family: 'Montserrat';
     font-weight: 700;
+    display: block;
+    text-align: center;
+
 }
 
 .btn-fill{
@@ -58,10 +61,14 @@ html, body{
     background: #FFF;
     font-family: 'Montserrat';
     font-weight: 700;
+    display: block;
+    text-align: center;
 }
 
 .btn:hover, .btn-fill:hover{
     cursor: pointer;
+    opacity: 0.8;
+    text-decoration: none;
 }
 
 .btn-contribute{
