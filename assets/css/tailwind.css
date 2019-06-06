@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    @apply rounded-full;
+    background: #FFFFFF;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #CCCCCC;
+}
+
+html,
+body {
+    @apply bg-black w-full h-full text-white
+}
+
+.wrapper {
+    @apply bg-black w-full h-full flex justify-center items-center
+}
+
+.container {
+    @apply w-auto flex flex-col justify-center items-center
+}
+
+.logo {
+    @apply w-32 h-32
+}
+
+.logotype {
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+    @apply text-white text-3xl
+}
+
+.title {
+    font-family: 'Montserrat', serif;
+    @apply text-white text-4xl font-bold
+}
+
+.subtitle {
+    font-family: 'Montserrat', serif;
+    @apply text-white text-xl
+}
+
+.text {
+    font-family: 'Montserrat', serif;
+    @apply text-white text-base
+}
+
+.btn {
+    @apply py-2 px-4 bg-white rounded-full text-black font-black my-4
+}
+
+.btn-sm {
+    @apply py-1 px-2 bg-white rounded-full text-base text-black font-black my-2
+}

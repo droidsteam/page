@@ -1,0 +1,26 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwind build assets/css/tailwind.css -o assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droidsteam/page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/droidsteam/page/issues"
+  },
+  "homepage": "https://github.com/droidsteam/page#readme",
+  "devDependencies": {
+    "tailwindcss": "^1.0.3"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}

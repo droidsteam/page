@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Equipe Droids</title>
@@ -7,30 +8,41 @@
     <link rel="shortcut icon" href="assets/img/equipeDroids_logo.png">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Anton%7CHind:400,700%7CMontserrat:400,700" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/vendor/animate/animate.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 </head>
-<body>
 
-<div class="w-100 h-100 d-flex justify-content-center align-items-center flex-column">
-    <div class="logo_container">
-        <a href="index.html"><img class="logo" src="assets/img/equipeDroids_logo.png"></a>
-        <br>
-        <span class="logotype">Equipe Droids</span>
+<body class="flex flex-col">
+
+    <div class="wrapper flex-1">
+
+        <div class="container">
+            <img class="logo" src="assets/img/equipeDroids_logo.png">
+            <span class="logotype -mt-4">Equipe Droids</span>
+            <div class="mt-3">
+                <span class="team"><i class="fa fa-code-branch icon"></i> gigaDroids</span>
+                <span class="team ml-3"><i class="fa fa-code-branch icon"></i> nanoDroids</span>
+            </div>
+            <!-- https://vaka.me/550901 -->
+            <a class="btn" href="supporttheteam.html">Contribua com as Equipes</a>
+            <a class="" href="https://instagram.com/equipedroids" target="_blank"><i class="fab fa-instagram"></i>
+				equipedroids</a>
+        </div>
+
     </div>
-    <div class="teams_container">
-        <span class="team"><i class="fa fa-code-branch icon"></i> gigaDroids</span>
-        <span class="team ml-3"><i class="fa fa-code-branch icon"></i> nanoDroids</span>
-    </div>
-    <a class="btn-fill mt-4" href="https://vaka.me/550901" target="_blank">Contribua com as Equipes</a>
-    <a class="btn mt-2" href="https://instagram.com/equipedroids" target="_blank"><i class="fab fa-instagram"></i> equipedroids</a>
 
-</div>
+    <footer class="mx-12 md:mx-24 md:px-4 py-8 pin-b">
+        <span class="text flex justify-center w-full flex flex-col md:flex-row">
+			<a class="my-2 md:my-1 mx-0 md:mx-4"><i class="fa fa-envelope mr-2"></i>contatodroids@gmail.com</a>
+			<a class="my-2 md:my-1 mx-0 md:mx-4" target="_blank"
+				href="http://api.whatsapp.com/send?1=pt_BR&phone=5531994470733&text=Ola%20equipe%20Droids"><i
+					class="fab fa-whatsapp mr-2"></i>(31) 99447-0733</a>
+			<a class="my-2 md:my-1 mx-0 md:mx-4" target="_blank"
+				href="http://api.whatsapp.com/send?1=pt_BR&phone=5531997696088&text=Ola%20equipe%20Droids"><i
+					class="fab fa-whatsapp mr-2"></i>(31) 99769-6088</a>
+		</span>
+    </footer>
 
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/jquery/jquery-migrate.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
